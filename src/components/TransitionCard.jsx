@@ -34,6 +34,8 @@ const TransitionCard = ({ advanceQuestion, restartQuiz, isQuizStart }) => {
             <>
                 <div className='text-left text-lg'>Quiz Complete</div>
                 <div className='text-left text-sm'>See results, questions, and answers below</div>
+                {/* I forgot to fix this, but in case you don't have 10 questions, you should pass questions.length as a prop to this component and */}
+                {/* multiply that value by 10 to get correct max points; i.e. ${questions.length * 10}  */}
                 <div className='text-left text-sm'>{`You got ${finalScore} out of 100 possible points`}</div>
                 <hr className='text-neon-teal'/>
                 {/* next button */}
