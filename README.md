@@ -74,6 +74,7 @@ npm run dev
         }
     ]
 },
+```
 
 ## Features:
 
