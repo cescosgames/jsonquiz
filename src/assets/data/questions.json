@@ -1,0 +1,227 @@
+{
+  "quiz": {
+    "title": "JSON Quiz",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What does JSON stand for?",
+        "answers": [
+          {
+            "text": "JavaScript Object Notation",
+            "isCorrect": true
+          },
+          {
+            "text": "JavaScript Operational Network",
+            "isCorrect": false
+          },
+          {
+            "text": "Java Object Notation",
+            "isCorrect": false
+          },
+          {
+            "text": "Java Script Object Notation",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Which of the following is a valid JSON value?",
+        "answers": [
+          {
+            "text": "{name: 'John'}",
+            "isCorrect": false
+          },
+          {
+            "text": "'John'",
+            "isCorrect": false
+          },
+          {
+            "text": "\"John\"",
+            "isCorrect": true
+          },
+          {
+            "text": "John",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Which data types can be used in JSON?",
+        "answers": [
+          {
+            "text": "Strings, Numbers, Arrays, Booleans, Objects, null",
+            "isCorrect": true
+          },
+          {
+            "text": "Strings, Arrays, Null, Functions, Booleans",
+            "isCorrect": false
+          },
+          {
+            "text": "Objects, Arrays, Numbers, Undefined",
+            "isCorrect": false
+          },
+          {
+            "text": "Strings, Numbers, Functions, Objects",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "How do you represent an array in JSON?",
+        "answers": [
+          {
+            "text": "[1, 2, 3, 4]",
+            "isCorrect": true
+          },
+          {
+            "text": "{1, 2, 3, 4}",
+            "isCorrect": false
+          },
+          {
+            "text": "(1, 2, 3, 4)",
+            "isCorrect": false
+          },
+          {
+            "text": "<1, 2, 3, 4>",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Which symbol is used to separate key-value pairs in a JSON object?",
+        "answers": [
+          {
+            "text": ":",
+            "isCorrect": true
+          },
+          {
+            "text": "=",
+            "isCorrect": false
+          },
+          {
+            "text": ",",
+            "isCorrect": false
+          },
+          {
+            "text": ";",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "Which of the following is a valid JSON object?",
+        "answers": [
+          {
+            "text": "{\"name\": \"John\", \"age\": 30}",
+            "isCorrect": true
+          },
+          {
+            "text": "{name: John, age: 30}",
+            "isCorrect": false
+          },
+          {
+            "text": "{\"name\": \"John\"; \"age\": 30}",
+            "isCorrect": false
+          },
+          {
+            "text": "{name='John', age=30}",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "What is the purpose of the `null` value in JSON?",
+        "answers": [
+          {
+            "text": "It represents an empty string.",
+            "isCorrect": false
+          },
+          {
+            "text": "It represents an undefined value.",
+            "isCorrect": false
+          },
+          {
+            "text": "It represents the absence of a value.",
+            "isCorrect": true
+          },
+          {
+            "text": "It represents a missing value.",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "Which of the following is NOT a valid JSON structure?",
+        "answers": [
+          {
+            "text": "{\"name\": \"John\", \"age\": 30}",
+            "isCorrect": false
+          },
+          {
+            "text": "[\"apple\", \"banana\", \"cherry\"]",
+            "isCorrect": false
+          },
+          {
+            "text": "{\"name\" : \"John\", \"age\":}",
+            "isCorrect": true
+          },
+          {
+            "text": "{\"name\": \"John\"}",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "How can you parse a JSON string in JavaScript?",
+        "answers": [
+          {
+            "text": "JSON.parse()",
+            "isCorrect": true
+          },
+          {
+            "text": "JSON.stringify()",
+            "isCorrect": false
+          },
+          {
+            "text": "parseJSON()",
+            "isCorrect": false
+          },
+          {
+            "text": "toJSON()",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "Which of the following JSON structures is an array of objects?",
+        "answers": [
+          {
+            "text": "[{\"name\": \"John\"}, {\"name\": \"Jane\"}]",
+            "isCorrect": true
+          },
+          {
+            "text": "[{\"name\": \"John\", \"age\": 30}, {\"name\": \"Jane\", \"age\": 25}]",
+            "isCorrect": false
+          },
+          {
+            "text": "{\"name\": \"John\", \"name\": \"Jane\"}",
+            "isCorrect": false
+          },
+          {
+            "text": "{\"name\": [\"John\", \"Jane\"]}",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  }
+}
