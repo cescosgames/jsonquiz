@@ -4,7 +4,7 @@ JSON Quiz is a browser based quiz made in react based on the [project from roadm
 topic by importing your own json multiple choice questions in the format seen in this project.
 <br>
 <br>
-Live Demo: coming soon!
+Live Demo: https://jsonquiz.pages.dev/
 
 ## How it was made:
 
