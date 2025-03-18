@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
         {/* github link */}
         <div className='text-neon-teal'>
-            <a href="#" className='transition-all hover:text-neon-orange'>Github</a>
+            <a href="https://github.com/cescosgames/jsonquiz" className='transition-all hover:text-neon-orange' aria-label='link to github project'>Github</a>
         </div>
     </div>
   )

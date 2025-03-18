@@ -8,7 +8,7 @@ const Footer = () => {
             </span>
             <ul className="hidden items-center text-sm font-medium text-neon-teal sm:mt-0 md:block hover:text-neon-orange transition">
                 <li>
-                    <a href="https://github.com/cescosgames" target='_blank' className="me-4 md:me-6 cursor-pointer" aria-label='link to github profile'>Github</a>
+                    <a href="https://github.com/cescosgames/jsonquiz" target='_blank' className="me-4 md:me-6 cursor-pointer" aria-label='link to github project'>Github</a>
                 </li>
             </ul>
         </footer>
